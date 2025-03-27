@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x86",
+            "includePath": [
+                "c:/Users/gurja/OneDrive/Documents/Coding/oops using c++/**"
+            ],
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerArgs": [
+                ""
+            ],
+            "compilerPathInCppPropertiesJson": "C:/MinGW/bin/gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "\"configurations\": [     {         \"name\": \"MinGW-w64\",         \"intelliSenseMode\": \"gcc-x64\",         \"compilerPath\": \"C:/mingw64/bin/g++.exe\",         \"includePath\": [\"${workspaceFolder}\"],         \"cStandard\": \"c11\",         \"cppStandard\": \"c++17\"     } ]",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}
