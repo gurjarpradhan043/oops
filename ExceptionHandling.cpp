@@ -1,3 +1,4 @@
+//wap to demonstrate the concept of Exception handling
 #include <iostream>
 using namespace std;
 
@@ -17,3 +18,7 @@ int main() {
 
     return 0;
 }
+//output :-
+// Enter two numbers: 5
+// 6
+// Result: 0

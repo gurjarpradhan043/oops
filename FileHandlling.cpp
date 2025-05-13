@@ -1,29 +1,32 @@
+//wap that perform various operation like creating ,opening, reading and writing files usin file handling function
 #include <iostream>
-#include <fstream>  // File handling library
+#include <fstream>  
 using namespace std;
 
 int main() {
-    // Writing to a file
-    ofstream outfile("sample.txt");  // Create a file
+    
+    ofstream outfile("sample.txt");  
     if (!outfile) {
         cout << "Error creating file!" << endl;
         return 1;
     }
     outfile << "Hello, this is a text file!" << endl;
-    outfile.close();  // Always close the file
+    outfile.close();  
 
-    // Reading from the file
-    ifstream infile("sample.txt");  // Open file for reading
+    
+    ifstream infile("sample.txt");  
     if (!infile) {
         cout << "Error opening file!" << endl;
         return 1;
     }
 
     string line;
-    while (getline(infile, line)) {  // Read line by line
+    while (getline(infile, line)) {  
         cout << "File content: " << line << endl;
     }
     
-    infile.close();  // Close the file after reading
+    infile.close();  
     return 0;
 }
+//output :- 
+//File content: Hello, this is a text file!
